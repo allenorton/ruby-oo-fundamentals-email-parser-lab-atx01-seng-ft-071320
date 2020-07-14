@@ -11,7 +11,7 @@ class EmailAddressParser
   end 
   def parse
     #nu_e = @email_string.rstrip
-    nu_ee = @email_string.split(/,| /).uniq 
+    @email_string.split(/, | /).uniq 
 
     
   end 

@@ -7,9 +7,8 @@ class EmailAddressParser
   def initialize(email_string)
     @email_string = email_string
   end 
-  def parse 
-    e_list = @email_string.split
-    e_array = []
-    e_array.push(e_list)
+  def parse
+    @email_string.split
+    
   end 
 end 

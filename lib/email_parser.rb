@@ -9,7 +9,8 @@ class EmailAddressParser
   end 
   def parse
     nu_e = @email_string.rstrip
-    nu_e.split 
+    nu_ee = nu_e.split 
+    nu_ee.delete_if?(",")
 
     
   end 

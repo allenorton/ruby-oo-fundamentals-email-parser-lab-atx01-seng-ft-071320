@@ -9,7 +9,7 @@ class EmailAddressParser
   end 
   def parse
     nu_e = @email_string.split(*/,/)
-    nu_e.join(",")
+    nu_e.join(" ",",")
     
   end 
 end 

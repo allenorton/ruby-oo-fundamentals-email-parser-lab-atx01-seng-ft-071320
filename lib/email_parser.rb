@@ -8,7 +8,7 @@ class EmailAddressParser
     @email_string = email_string
   end 
   def parse
-    #nu_e = @email_string.rstrip
+    nu_e = @email_string.rstrip
     nu_ee = @email_string.split(",")
 
     

@@ -8,7 +8,7 @@ class EmailAddressParser
     @email_string = email_string
   end 
   def parse 
-    e_list = @email_string.strip
+    e_list = @email_string.split
     e_array = []
     e_array.push(e_list)
   end 

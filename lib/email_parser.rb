@@ -3,6 +3,6 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-class EmailAddressParser(email_string)
+class EmailAddressParser
   
 end 
